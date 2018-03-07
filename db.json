@@ -1,0 +1,76 @@
+{
+  "expenses": [
+    {
+      "id": 1,
+      "category": "alimentaire",
+      "amount": "39.99",
+      "date": "2018-02-02"
+    },
+    {
+      "id": 2,
+      "category": "net",
+      "amount": "89.99",
+      "date": "2018-02-03"
+    },
+    {
+      "id": 3,
+      "category": "Loisirs",
+      "amount": "189.99",
+      "date": "2018-03-03"
+    },
+    {
+      "id": 4,
+      "category": "Enseignement",
+      "amount": "25",
+      "date": "2015-02-01"
+    },
+    {
+      "id": "0",
+      "category": "Meubles",
+      "amount": "33",
+      "date": "2013-05-02"
+    },
+    {
+      "id": 5,
+      "category": "Restauration",
+      "amount": "13",
+      "date": "2010-11-13"
+    },
+    {
+      "id": 6,
+      "category": "Alimentation",
+      "amount": "22",
+      "date": "2013-05-02"
+    },
+    {
+      "id": 7,
+      "category": "Enseignement",
+      "amount": "15",
+      "date": "2013-04-04"
+    },
+    {
+      "id": 8,
+      "category": "Habillement",
+      "amount": "23",
+      "date": "2011-01-04"
+    },
+    {
+      "id": 9,
+      "category": "Sante",
+      "amount": "25",
+      "date": "2011-04-03"
+    },
+    {
+      "id": 10,
+      "category": "Transports",
+      "amount": "16",
+      "date": "2009-04-01"
+    },
+    {
+      "id": 11,
+      "category": "Logement",
+      "amount": "21",
+      "date": "2014-03-03"
+    }
+  ]
+}
