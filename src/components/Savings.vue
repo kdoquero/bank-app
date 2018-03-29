@@ -6,7 +6,15 @@
 
 <script>
 export default {
-    name: 'saving'
+    name: 'saving',
+    props: {
+      expenses: {
+        type: Array
+      }
+    },
+    methods: {
+      
+    }
 
 }
 </script>

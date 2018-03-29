@@ -18,16 +18,16 @@ export default {
     mounted () {
         // Overwriting base render method with actual data.
         this.renderChart({
-        labels: ['Emploi', 'Logement', 'Alimentation', 'Loisirs', 'Santé', 'Habillement', 'Meubles', 'Transports', 'Communications', 'Enseignement', 'Restauration et hôtels', 'Biens et services divers','Autres'],
-        datasets: [
+            labels: ['Emploi', 'Logement', 'Alimentation', 'Loisirs', 'Santé', 'Habillement', 'Meubles', 'Transports', 'Communications', 'Enseignement', 'Restauration et hôtels', 'Biens et services divers','Autres'],
+            datasets: [
             {
             label: 'expenses',
             backgroundColor: '#f87979',
-            data: this.expenses
+            data: []
             }
-        ]
+            ]
         })
-  }
+    }
 
 }
 </script>

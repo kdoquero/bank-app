@@ -2,7 +2,6 @@
   <div>
     <b-form v-on:submit.prevent="add()" inline  >      
       <b-input-group left="@" class="mb-2 mr-sm-2 mb-sm-0">
-        <b-input type="number" id="id" placeholder="" v-model="expense.id"/>
         <label class="sr-only" for="category">Category</label>
         <select id="listeCategorie" required v-model="expense.category">
           <option value="" > --Choose-- </option>

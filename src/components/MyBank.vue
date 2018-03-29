@@ -29,10 +29,22 @@ export default {
     },
     methods: {
         addedExpense(expense){
-            Dao.add(expense)
+            Dao.add(expense).then(() => {
+                Dao.getAll().then((response) => {
+                    this.expenses = response.data
+                    
+                })
+                
+            })
         },
         remove(id){
-        this.expenses = this.expenses.filter(expense => expense.id !== id)
+        Dao.remove(id).then(() => {
+            Dao.getAll().then((response) => {
+                this.expenses = response.data
+                    
+            })
+
+        })
       }
     },
     beforeCreate(){

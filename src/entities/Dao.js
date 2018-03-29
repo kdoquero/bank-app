@@ -24,4 +24,13 @@ export class Dao {
         })
     }
 
+    static remove(id){
+        return axios({
+            method: "DELETE",
+            url: `${url}/${id}`,
+        }).then((response)=> {
+            console.log(response.data)
+        })
+    }
+
 }
